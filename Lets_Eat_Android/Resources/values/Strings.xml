@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lets_Eat</string>
+
+    <string-array name="user_types">
+        <item>Select User Type</item>
+        <item>customer</item>
+        <item>owner</item>
+    </string-array>
+
+    <string name="menutab">Configure Menu</string>
+    <string name="queuetab">Queue</string>
+    <string name="tabletab">Table List</string>
+    <string name="reservationtab">Reservations</string>
+    <string name="settingtab">Settings</string>
+
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo"></style> 
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">  
+    </style>  
+
+    <color name="Lets_Eat_Orange">#FD9826</color>
+    
+</resources>

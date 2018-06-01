@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lets_Eat_Android", "Lets_Eat_Android\Lets_Eat_Android.csproj", "{C626082A-66F2-4E44-8FE9-D9B2A5B622EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C626082A-66F2-4E44-8FE9-D9B2A5B622EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C626082A-66F2-4E44-8FE9-D9B2A5B622EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C626082A-66F2-4E44-8FE9-D9B2A5B622EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C626082A-66F2-4E44-8FE9-D9B2A5B622EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

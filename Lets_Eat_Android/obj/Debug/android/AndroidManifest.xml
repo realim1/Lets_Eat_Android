@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Lets_Eat.Lets_Eat">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="10" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:label="@string/app_name" android:theme="@style/Theme.DesignDemo" android:name="android.app.Application" android:icon="@drawable/icon" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Let's Eat" android:name="md5e640019764235946d02030188478c3aa.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Ownerpage" android:theme="@style/Theme.DesignDemo" android:name="md57cca9a4d8f644e237ec9664455fff161.Ownerpage" />
+    <activity android:label="Add_Dish" android:name="md57cca9a4d8f644e237ec9664455fff161.Add_Dish" />
+    <activity android:label="Edit_Dish" android:name="md57cca9a4d8f644e237ec9664455fff161.Edit_Dish" />
+    <activity android:label="MainPage_Customer" android:theme="@style/Theme.DesignDemo" android:name="md590515719b644bbdf5e8b88c51c9fcfb3.MainPage_Customer" />
+    <activity android:label="RestaurantPage" android:name="md590515719b644bbdf5e8b88c51c9fcfb3.RestaurantPage" />
+    <activity android:label="View_Menu" android:name="md590515719b644bbdf5e8b88c51c9fcfb3.View_Menu" />
+    <activity android:label="DishPage" android:name="md590515719b644bbdf5e8b88c51c9fcfb3.DishPage" />
+    <activity android:label="Login" android:name="md5e6337e82a3496d99d60a0bcde0e87100.Login" />
+    <activity android:label="Registration" android:name="md5e6337e82a3496d99d60a0bcde0e87100.Registration" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Lets_Eat.Lets_Eat.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Lets_Eat.Lets_Eat" />
+      </intent-filter>
+    </receiver>
+    <provider android:authorities="Lets_Eat.Lets_Eat.firebaseinitprovider" android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:initOrder="100" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+</manifest>
